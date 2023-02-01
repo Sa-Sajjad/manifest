@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Device Tree-->
-git clone https://github.com/Sa-Sajjad/device_xiaomi_lavender -b sa_hmp device/xiaomi/lavender
-<!-- Kernel tree-->
-git clone https://github.com/Sa-Sajjad/kernel_xiaomi_lavender -b hmp kernel/xiaomi/lavender
-<!-- Vendor tree -->
-git clone https://github.com/Sa-Sajjad/vendor_xiaomi_lavender -b 10 vendor/xiaomi/lavender
+
+ <!-- Remotes -->
+    <remote name="sa"
+            fetch="https://github.com/Sa-Sajjad/"
+            clone-depth="1" />
+
+ <!-- Trees & Extra -->
+ <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa" revision="sa_hmp" />
+ <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="sa" revision="10" />
+ <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="sa" revision="hmp" 
 </manifest>
