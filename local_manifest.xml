@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Device Tree-->
+git clone https://github.com/Sa-Sajjad/device_xiaomi_lavender -b sa_hmp device/xiaomi/lavender
+<!-- Kernel tree-->
+git clone https://github.com/Sa-Sajjad/kernel_xiaomi_lavender -b hmp kernel/xiaomi/lavender
+<!-- Vendor tree -->
+git clone https://github.com/Sa-Sajjad/vendor_xiaomi_lavender -b 10 vendor/xiaomi/lavender
+</manifest>
