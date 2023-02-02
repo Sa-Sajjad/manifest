@@ -2,12 +2,12 @@
 <manifest>
 
  <!-- Remotes -->
-    <remote name="sa"
+    <remote name="sa2"
             fetch="https://github.com/Sa-Sajjad/"
             clone-depth="1" />
 
  <!-- Trees & Extra -->
- <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa" revision="sa_hmp" />
- <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="sa" revision="10" />
- <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="sa" revision="hmp" />
+ <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa2" revision="sa_hmp" />
+ <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="sa2" revision="10" />
+ <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="sa2" revision="hmp" />
 </manifest>
