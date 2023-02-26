@@ -10,11 +10,7 @@
             fetch="https://github.com/sdtuif/"
             clone-depth="1" />
 
-    <remote name="clang"
-          fetch="https://gitlab.com/Amritorock" />
-
  <!-- Trees & Extra -->
  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa1" revision="sa_hmp" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="sa2" revision="10" />
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
