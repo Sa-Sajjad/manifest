@@ -13,5 +13,4 @@
  <!-- Trees & Extra -->
  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa1" revision="sa_hmp" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="sa2" revision="10" />
- <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="sa2" revision="hmp" />
 </manifest>
